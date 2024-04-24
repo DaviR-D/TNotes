@@ -27,10 +27,10 @@ const Input = styled.input`
 const TList = styled.li`
   color: white;
   background: rgb(40, 0, 90);
-  width: 25%;
-  height: 25%;
+  width: 50vh;
+  height: 2vh;
   text-align: center;
-  padding: 0.5em;
+  padding: 1em;
   border-radius: 3px;
 `;
 
@@ -42,7 +42,7 @@ function App() {
       <Wrapper>
         <Title>TNotes</Title>
       </Wrapper>
-      <Input></Input>
+      <Input placeholder="Tarefa"></Input>
       <ul>{tasks}</ul>
     </div>
   );
